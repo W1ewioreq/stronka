@@ -32,7 +32,7 @@ body {
 
 main {
   flex: 1;
-  padding-top: 80px; /* Account for fixed header */
+  padding-top: 80px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,14 +41,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-blue);
 }
 
-/* Container */
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* Buttons */
 .btn {
   display: inline-block;
   padding: 12px 30px;
@@ -93,7 +91,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #d97706;
 }
 
-/* Section Styles */
 .section {
   padding: 80px 0;
 }
@@ -115,7 +112,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: auto;
 }
 
-/* Page Header */
 .page-header {
   padding: 60px 0 40px;
   text-align: center;
@@ -134,7 +130,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
-/* Cards */
 .card {
   background: white;
   border-radius: 12px;
@@ -148,7 +143,6 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Forms */
 .form-group {
   margin-bottom: 1.5rem;
 }
@@ -184,22 +178,18 @@ select.form-control {
   cursor: pointer;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .section-title {
     font-size: 2rem;
   }
-
   .page-header h1 {
     font-size: 2rem;
   }
-
   .section {
     padding: 50px 0;
   }
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -215,12 +205,10 @@ select.form-control {
   animation: fadeIn 0.6s ease-out;
 }
 
-/* Smooth Scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Accessibility */
 *:focus {
   outline: 2px solid var(--success-green);
   outline-offset: 3px;
